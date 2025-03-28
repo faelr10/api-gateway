@@ -8,20 +8,20 @@ Este projeto é uma aplicação de microserviço construída com **NestJS** que 
 
 ```
 .
-├── .eslintrc.js              # Regras do ESLint
-├── .gitignore                # Arquivos ignorados pelo Git
-├── .prettierrc               # Configuração do Prettier
-├── Dockerfile                # Configuração da imagem Docker
-├── README.md                 # Este arquivo :)
-├── docker-compose.yml        # Orquestração dos containers
-├── kafka.yml                 # Configurações específicas do Kafka
-├── nest-cli.json             # Configuração do Nest CLI
-├── nest.yml                  # Configuração do NestJS
+├── .eslintrc.js              
+├── .gitignore                
+├── .prettierrc               
+├── Dockerfile                
+├── README.md                 
+├── docker-compose.yml        
+├── kafka.yml                 
+├── nest-cli.json             
+├── nest.yml                  
 ├── package-lock.json
-├── package.json              # Dependências e scripts
-├── test-kafka.js             # Script para testar o Kafka
-├── tsconfig.build.json       # Configuração de build TypeScript
-├── tsconfig.json             # Configuração base TypeScript
+├── package.json             
+├── test-kafka.js             
+├── tsconfig.build.json       
+├── tsconfig.json             
 └── src
     ├── api-gateway
     │   ├── api-gateway.controller.ts
